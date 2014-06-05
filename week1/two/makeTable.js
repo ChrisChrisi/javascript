@@ -1,37 +1,5 @@
 "use strict";
-/**
- *  <table class="table">
- <thead>
- <tr>
- <th>Id</th>
- <th>Name</th>
- <th>Course</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <td>1</td>
- <td>Radoslav Georgiev</td>
- <td>Frontend JavaScript</td>
- </tr>
- <tr>
- <td>2</td>
- <td>Ivaylo Bachvaroff</td>
- <td>Frontend JavaScript</td>
- </tr>
- <tr>
- <td>3</td>
- <td>Georgi Pachov</td>
- <td>Core Java</td>
- </tr>
- <tr>
- <td>4</td>
- <td>Ivan Ivanov</td>
- <td>Programming 101</td>
- </tr>
- </tbody>
- </table>
- */
+
 var students = [
     {
         "id"    : 1,
@@ -95,4 +63,4 @@ var makeTable = function (info) {
     return result;
 };
 
-console.log(makeTable(students));
+//console.log(makeTable(students));

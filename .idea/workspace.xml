@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0449713f-6653-4981-aa66-918b5362b90b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/two/makeTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/two/makeTable.js" afterPath="$PROJECT_DIR$/week1/two/makeTable.js" />
     </list>
     <ignored path="javascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="makeTable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week1/two/makeTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35" vertical-offset="0" max-vertical-offset="2312">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.425" vertical-offset="816" max-vertical-offset="1768">
+              <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -729,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/two/makeTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.425" vertical-offset="816" max-vertical-offset="1768">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
           <folding />
         </state>
       </provider>
