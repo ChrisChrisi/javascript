@@ -1,22 +1,54 @@
 "use strict";
+$(document).ready(function () {
+    $.getJSON('http://localhost:3000/students', function (students, textStatus) {
 
-$(document).ready(function() {
-  alert("Hooray, everything runs ok. You can remove this annoying alert from the code.");
+        var table = makeTable(students);
 
-  $.getJSON('http://localhost:3000/students', function(students, textStatus) {
-      console.log(textStatus);
-      console.log(students);
+        $("#b-div").append(table);
+    });
+//group by course
+    $("#group-btn").on("click", function () {
+        $("#b-div").empty();
+        $.getJSON('http://localhost:3000/students', function (students, textStatus) {
 
-      alert("Students came. Open your console and remove this alert!");
-      //start here
-  });
+            var sorted = groupBy(function (student) {
+                return student.course;
+            }, students);
+            var keys = Object.keys(sorted);
+            keys.forEach(function (key) {
+                var newTable = makeTable(sorted[key]);
+                $("#b-div").append(newTable);
+            });
 
-  $("#group-btn").on("click", function() {
-    alert("What are you looking at? Go implement that logic.");
-  });
+        });
+    });
+    //return the default table
+    $("#def-group-btn").on("click", function () {
+        $("#b-div").empty();
+        $.getJSON('http://localhost:3000/students', function (students, textStatus) {
+            var table = makeTable(students);
+            $("#b-div").append(table);
+        });
+    });
 
-  $("#search-btn").on("click", function() {
-    var searched = $("#search-box").val();
-    alert("You searched for " + searched);
-  });
+    $("#search-btn").on("click", function () {
+
+        $("#b-div").empty();
+        var searched = $("#search-box").val();
+        $.getJSON('http://localhost:3000/students', function (students, textStatus) {
+
+            var result = [];
+            students.forEach(function (a, i) {
+                if (a['name'] === searched) {
+                    result.push(i);
+                    return true;
+                }
+            });
+            var table = makeTable(students,result);
+
+            $("#b-div").append(table);
+
+        });
+
+    });
 });
