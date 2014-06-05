@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0449713f-6653-4981-aa66-918b5362b90b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/always-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/charsHistogram-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/find-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/ol-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/only-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/pluck-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/range-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/ul-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/without-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/wordsHistogram-test.js" />
-      <change type="DELETED" beforePath="E:\wamp\www\javascript\week1\tryStuff.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/always.js" afterPath="$PROJECT_DIR$/week1/always.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/charsHistogram.js" afterPath="$PROJECT_DIR$/week1/charsHistogram.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/find.js" afterPath="$PROJECT_DIR$/week1/find.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/nestedLIst.js" afterPath="$PROJECT_DIR$/week1/nestedLIst.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/ol.js" afterPath="$PROJECT_DIR$/week1/ol.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/pluck.js" afterPath="$PROJECT_DIR$/week1/pluck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/range.js" afterPath="$PROJECT_DIR$/week1/range.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/ul.js" afterPath="$PROJECT_DIR$/week1/ul.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/without.js" afterPath="$PROJECT_DIR$/week1/without.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/wordsHistogram.js" afterPath="$PROJECT_DIR$/week1/wordsHistogram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/zip-test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/zip.js" afterPath="$PROJECT_DIR$/week1/zip.js" />
     </list>
@@ -52,17 +32,37 @@
         <entry file="file://$PROJECT_DIR$/week1/sum.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zip.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sum-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/sum-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1053">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zip.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1/zip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55081004" vertical-offset="0" max-vertical-offset="1138">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1410">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zip-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/zip-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6259205" vertical-offset="0" max-vertical-offset="1138">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -112,6 +112,7 @@
         <option value="$PROJECT_DIR$/week1/charsHistogram.js" />
         <option value="$PROJECT_DIR$/week1/charsHistogram-test.js" />
         <option value="$PROJECT_DIR$/week1/zip.js" />
+        <option value="$PROJECT_DIR$/week1/zip-test.js" />
       </list>
     </option>
   </component>
@@ -585,14 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1/sum-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55081004" vertical-offset="0" max-vertical-offset="1053">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week1/charsHistogram-test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.87628865" vertical-offset="0" max-vertical-offset="1291">
@@ -636,15 +629,31 @@
     <entry file="file://$PROJECT_DIR$/week1/sum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/sum-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1053">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/zip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55081004" vertical-offset="0" max-vertical-offset="1138">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1410">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/zip-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6259205" vertical-offset="0" max-vertical-offset="1138">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>
