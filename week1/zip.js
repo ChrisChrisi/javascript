@@ -20,7 +20,7 @@ var zip = function (arrayOfArrays) {
     arrayOfArrays = arrayOfArrays.slice(1);
     arrayOfArrays.forEach(function(array){
         array.forEach(function(a, i){
-
+            
         });
     });
 }

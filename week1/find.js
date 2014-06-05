@@ -14,4 +14,4 @@ var find = function(predicate, arr) {
     return result;
 };
 
-console.log(find(function(a){return a%2 === 0;}, [5,22,7,9]));
+exports.find = find;

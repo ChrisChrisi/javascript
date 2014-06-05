@@ -7,15 +7,15 @@
  */
 
 var nestedLIst = function (items, listType) {
-    if(listType !== "ol" && listType !== "ul"){
+    if (listType !== "ol" && listType !== "ul") {
         throw new TypeError("Wrong list type!");
     }
     var result = "<" + listType + ">\n";
     items.forEach(function (a) {
-        if ( typeof a["children"] != "undefined") {
-            result += nestedLIst(a["children"],listType);
+        if (typeof a["children"] != "undefined") {
+            result += nestedLIst(a["children"], listType);
         }
-        if ( typeof a["label"] != "undefined") {
+        if (typeof a["label"] != "undefined") {
             result += "<li>" + a['label'] + "</li>\n";
         }
     });
@@ -35,5 +35,4 @@ var items = [
     ]
     }
 ];
-console.log(nestedLIst(items, "ol"));
 exports.nestedLIst = nestedLIst;

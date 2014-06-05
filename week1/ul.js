@@ -11,15 +11,16 @@
  </ol>
 
  */
-var ul = function(items) {
-   var result = "<ul>\n";
-    items.forEach(function(a){
-        result += "<li>"+ a['label']+ "</li>\n";
+var ul = function (items) {
+    if (items.length < 1) {
+        return "";
+    }
+    var result = "<ul>\n";
+    items.forEach(function (a) {
+        result += "<li>" + a['label'] + "</li>\n";
     });
     result += "</ul>\n"
     return result;
 };
 
-var items = [{ "label" : "Item 1"}, { "label" : "Item 2"}]
-var htmlUl = ul(items);
-console.log(htmlUl);
+exports.ul = ul;
