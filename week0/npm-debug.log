@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json tic-tac-toe@0.0.0 No repository field.
+6 warn package.json tic-tac-toe@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'E:\\wamp\\www\\javascript\\week0', [ 'sync-prompt' ] ]
+9 info preinstall tic-tac-toe@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'sync-prompt@^0.2.2', null ]
+12 verbose cache add name=undefined spec="sync-prompt@^0.2.2" args=["sync-prompt@^0.2.2",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'sync-prompt@^0.2.2',
+13 verbose parsed url   path: 'sync-prompt@^0.2.2',
+13 verbose parsed url   href: 'sync-prompt@^0.2.2' }
+14 verbose cache add name="sync-prompt" spec="^0.2.2" args=["sync-prompt","^0.2.2"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '^0.2.2',
+15 verbose parsed url   path: '^0.2.2',
+15 verbose parsed url   href: '^0.2.2' }
+16 verbose addNamed [ 'sync-prompt', '^0.2.2' ]
+17 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+18 silly lockFile 9b1e9e81-sync-prompt-0-2-2 sync-prompt@^0.2.2
+19 verbose lock sync-prompt@^0.2.2 C:\Users\John Smith\AppData\Roaming\npm-cache\9b1e9e81-sync-prompt-0-2-2.lock
+20 silly addNameRange { name: 'sync-prompt',
+20 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+20 silly addNameRange   hasData: false }
+21 verbose url raw sync-prompt
+22 verbose url resolving [ 'https://registry.npmjs.org/', './sync-prompt' ]
+23 verbose url resolved https://registry.npmjs.org/sync-prompt
+24 info trying registry request attempt 1 at 17:18:01
+25 http GET https://registry.npmjs.org/sync-prompt
+26 http 200 https://registry.npmjs.org/sync-prompt
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Wed, 04 Jun 2014 14:18:05 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 silly registry.get     etag: '"DKNII93ZISFK3GZH6WFB7B7ZZ"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=1',
+27 silly registry.get     'content-length': '18275',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     age: '2488',
+27 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-fra1230-FRA',
+27 silly registry.get     'x-cache': 'MISS, MISS',
+27 silly registry.get     'x-cache-hits': '0, 0',
+27 silly registry.get     'x-timer': 'S1401891485.500890,VS0,VE359',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'sync-prompt',
+28 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+28 silly addNameRange   hasData: true }
+29 silly addNameRange versions [ 'sync-prompt',
+29 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+30 verbose addNamed [ 'sync-prompt', '0.2.2' ]
+31 verbose addNamed [ '0.2.2', '0.2.2' ]
+32 silly lockFile 20396b31-sync-prompt-0-2-2 sync-prompt@0.2.2
+33 verbose lock sync-prompt@0.2.2 C:\Users\John Smith\AppData\Roaming\npm-cache\20396b31-sync-prompt-0-2-2.lock
+34 silly lockFile 026780a2-ync-prompt-sync-prompt-0-2-2-tgz https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz
+35 verbose lock https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz C:\Users\John Smith\AppData\Roaming\npm-cache\026780a2-ync-prompt-sync-prompt-0-2-2-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz',
+36 verbose addRemoteTarball   'dc48b36e2961e87650a8600ac122ff1ca4267c2e' ]
+37 info retry fetch attempt 1 at 17:18:01
+38 verbose fetch to= C:\Users\JOHNSM~1\AppData\Local\Temp\npm-5356-Se3_Dg4P\1401891481749-0.2735656388103962\tmp.tgz
+39 http GET https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz
+40 http 200 https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz
+41 verbose tar unpack C:\Users\JOHNSM~1\AppData\Local\Temp\npm-5356-Se3_Dg4P\1401891481749-0.2735656388103962\tmp.tgz
+42 silly lockFile be73bb56--cache-sync-prompt-0-2-2-package tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package
+43 verbose lock tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package C:\Users\John Smith\AppData\Roaming\npm-cache\be73bb56--cache-sync-prompt-0-2-2-package.lock
+44 silly lockFile 9dfa2cda-81749-0-2735656388103962-tmp-tgz tar://C:\Users\JOHNSM~1\AppData\Local\Temp\npm-5356-Se3_Dg4P\1401891481749-0.2735656388103962\tmp.tgz
+45 verbose lock tar://C:\Users\JOHNSM~1\AppData\Local\Temp\npm-5356-Se3_Dg4P\1401891481749-0.2735656388103962\tmp.tgz C:\Users\John Smith\AppData\Roaming\npm-cache\9dfa2cda-81749-0-2735656388103962-tmp-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry LICENSE
+51 silly gunzTarPerm extractEntry test.js
+52 silly gunzTarPerm extractEntry HISTORY.md
+53 silly gunzTarPerm extractEntry binding.gyp
+54 silly gunzTarPerm extractEntry lib/sync-prompt.js
+55 silly gunzTarPerm extractEntry src/sync_prompt.cc
+56 silly lockFile be73bb56--cache-sync-prompt-0-2-2-package tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package
+57 silly lockFile be73bb56--cache-sync-prompt-0-2-2-package tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package
+58 silly lockFile 9dfa2cda-81749-0-2735656388103962-tmp-tgz tar://C:\Users\JOHNSM~1\AppData\Local\Temp\npm-5356-Se3_Dg4P\1401891481749-0.2735656388103962\tmp.tgz
+59 silly lockFile 9dfa2cda-81749-0-2735656388103962-tmp-tgz tar://C:\Users\JOHNSM~1\AppData\Local\Temp\npm-5356-Se3_Dg4P\1401891481749-0.2735656388103962\tmp.tgz
+60 silly lockFile 026780a2-ync-prompt-sync-prompt-0-2-2-tgz https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz
+61 silly lockFile 026780a2-ync-prompt-sync-prompt-0-2-2-tgz https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz
+62 silly lockFile 20396b31-sync-prompt-0-2-2 sync-prompt@0.2.2
+63 silly lockFile 20396b31-sync-prompt-0-2-2 sync-prompt@0.2.2
+64 silly lockFile 9b1e9e81-sync-prompt-0-2-2 sync-prompt@^0.2.2
+65 silly lockFile 9b1e9e81-sync-prompt-0-2-2 sync-prompt@^0.2.2
+66 silly resolved [ { name: 'sync-prompt',
+66 silly resolved     description: 'Synchronously prompt your user for command-line input.',
+66 silly resolved     homepage: 'https://github.com/shovon/sync-prompt',
+66 silly resolved     keywords: [ 'command', 'line', 'io' ],
+66 silly resolved     version: '0.2.2',
+66 silly resolved     author:
+66 silly resolved      { name: 'Salehen Shovon Rahman',
+66 silly resolved        email: 'salehen.rahman@gmail.com',
+66 silly resolved        url: 'http://shovon.github.io' },
+66 silly resolved     scripts:
+66 silly resolved      { test: './node_modules/mocha/bin/mocha && ./node_modules/jshint/bin/jshint .',
+66 silly resolved        coverage: './node_modules/istanbul/lib/cli.js cover _mocha -- -u exports -R spec',
+66 silly resolved        coveralls: './node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage',
+66 silly resolved        install: 'node-gyp rebuild' },
+66 silly resolved     repository:
+66 silly resolved      { type: 'git',
+66 silly resolved        url: 'https://github.com/shovon/sync-prompt.git' },
+66 silly resolved     bugs: { url: 'https://github.com/shovon/sync-prompt/issues' },
+66 silly resolved     license:
+66 silly resolved      { type: 'MIT',
+66 silly resolved        url: 'https://github.com/shovon/blob/master/LICENSE' },
+66 silly resolved     main: './lib/sync-prompt',
+66 silly resolved     devDependencies:
+66 silly resolved      { sinon: '~1.7.3',
+66 silly resolved        jshint: '~2.1.4',
+66 silly resolved        mocha: '~1.12.0',
+66 silly resolved        istanbul: '~0.1.44',
+66 silly resolved        coveralls: '~2.3.0',
+66 silly resolved        'mocha-lcov-reporter': '0.0.1' },
+66 silly resolved     gypfile: true,
+66 silly resolved     readme: '# sync-prompt\n\n[![Build Status](https://travis-ci.org/shovon/sync-prompt.png)](https://travis-ci.org/shovon/sync-prompt) [![Dependency Status](https://gemnasium.com/shovon/sync-prompt.png)](https://gemnasium.com/shovon/sync-prompt) [![Coverage Status](https://coveralls.io/repos/shovon/sync-prompt/badge.png)](https://coveralls.io/r/shovon/sync-prompt)\n\nSynchronously prompt users for command-line input. Do more on Node.js, with less.\n\n## Usage\n\nSimply run `npm install sync-prompt`, and you should be good to go.\n\nExample usage:\n\n```javascript\nvar prompt = require(\'sync-prompt\').prompt;\n\nvar name = prompt(\'What is your name? \');\n// User enters "Mike".\n\nconsole.log(\'Hello, \' + name + \'!\');\n// -> Hello, Mike!\n\nvar hidden = true;\nvar password = prompt(\'Password: \', hidden);\n// User enters a password, but nothing will be written to the screen.\n```\n\n## API\n\n### `.prompt([question [, hidden = false]])`\n\nWhen called, it will prompt the user for a command line input.\n\n#### Parameters\n\n**question**\n\nType: `string`. Default value: undefined. Optional\n\nWhen set to a string, the value of `question` will be outputed to the console.\n\n**hidden**\n\nType: `boolean`. Default value: undefined. Optional, but requires `question` to be set to a string.\n\nWhen set to true, none of the user\'s input will be written to the console. This is great for passwords.\n\n## Running Tests\n\nBe sure that you have the dependencies installed, locally, for the project:\n\n```shell\nnpm install\n```\n\nAnd then run the tests:\n\n```shell\nnpm test\n```\n\n### Code Coverage\n\nYou can run\n\n```shell\nnpm run coverage\n```\n\nAnd see a summary of the code coverage on the command line.\n\nYou can get an in-depth coverage report in the generated `coverage/lcov-report/index.html` file.\n\n## Licence\n\nUnless stated in file headers, the license is found in the `LICENSE` file.',
+66 silly resolved     readmeFilename: 'README.md',
+66 silly resolved     _id: 'sync-prompt@0.2.2',
+66 silly resolved     _shasum: 'dc48b36e2961e87650a8600ac122ff1ca4267c2e',
+66 silly resolved     _from: 'sync-prompt@^0.2.2',
+66 silly resolved     _resolved: 'https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.2.2.tgz' } ]
+67 info install sync-prompt@0.2.2 into E:\wamp\www\javascript\week0
+68 info installOne sync-prompt@0.2.2
+69 info E:\wamp\www\javascript\week0\node_modules\sync-prompt unbuild
+70 verbose tar unpack C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package.tgz
+71 silly lockFile 7b0e3c91-t-week0-node-modules-sync-prompt tar://E:\wamp\www\javascript\week0\node_modules\sync-prompt
+72 verbose lock tar://E:\wamp\www\javascript\week0\node_modules\sync-prompt C:\Users\John Smith\AppData\Roaming\npm-cache\7b0e3c91-t-week0-node-modules-sync-prompt.lock
+73 silly lockFile 8a6dc255-he-sync-prompt-0-2-2-package-tgz tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package.tgz
+74 verbose lock tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package.tgz C:\Users\John Smith\AppData\Roaming\npm-cache\8a6dc255-he-sync-prompt-0-2-2-package-tgz.lock
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry .npmignore
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm extractEntry test.js
+81 silly gunzTarPerm extractEntry HISTORY.md
+82 silly gunzTarPerm extractEntry binding.gyp
+83 silly gunzTarPerm extractEntry lib/sync-prompt.js
+84 silly gunzTarPerm extractEntry src/sync_prompt.cc
+85 silly lockFile 7b0e3c91-t-week0-node-modules-sync-prompt tar://E:\wamp\www\javascript\week0\node_modules\sync-prompt
+86 silly lockFile 7b0e3c91-t-week0-node-modules-sync-prompt tar://E:\wamp\www\javascript\week0\node_modules\sync-prompt
+87 silly lockFile 8a6dc255-he-sync-prompt-0-2-2-package-tgz tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package.tgz
+88 silly lockFile 8a6dc255-he-sync-prompt-0-2-2-package-tgz tar://C:\Users\John Smith\AppData\Roaming\npm-cache\sync-prompt\0.2.2\package.tgz
+89 info preinstall sync-prompt@0.2.2
+90 verbose readDependencies using package.json deps
+91 verbose readDependencies using package.json deps
+92 silly resolved []
+93 verbose about to build E:\wamp\www\javascript\week0\node_modules\sync-prompt
+94 info build E:\wamp\www\javascript\week0\node_modules\sync-prompt
+95 verbose linkStuff [ false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   'E:\\wamp\\www\\javascript\\week0\\node_modules' ]
+96 info linkStuff sync-prompt@0.2.2
+97 verbose linkBins sync-prompt@0.2.2
+98 verbose linkMans sync-prompt@0.2.2
+99 verbose rebuildBundles sync-prompt@0.2.2
+100 info install sync-prompt@0.2.2
+101 verbose unsafe-perm in lifecycle true
+102 info sync-prompt@0.2.2 Failed to exec install script
+103 info E:\wamp\www\javascript\week0\node_modules\sync-prompt unbuild
+104 info preuninstall sync-prompt@0.2.2
+105 info uninstall sync-prompt@0.2.2
+106 verbose true,E:\wamp\www\javascript\week0\node_modules,E:\wamp\www\javascript\week0\node_modules unbuild sync-prompt@0.2.2
+107 info postuninstall sync-prompt@0.2.2
+108 error sync-prompt@0.2.2 install: `node-gyp rebuild`
+108 error Exit status 1
+109 error Failed at the sync-prompt@0.2.2 install script.
+109 error This is most likely a problem with the sync-prompt package,
+109 error not with npm itself.
+109 error Tell the author that this fails on your system:
+109 error     node-gyp rebuild
+109 error You can get their info via:
+109 error     npm owner ls sync-prompt
+109 error There is likely additional logging output above.
+110 error System Windows_NT 6.1.7601
+111 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+112 error cwd E:\wamp\www\javascript\week0
+113 error node -v v0.10.28
+114 error npm -v 1.4.9
+115 error code ELIFECYCLE
+116 verbose exit [ 1, true ]
