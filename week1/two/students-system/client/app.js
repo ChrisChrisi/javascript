@@ -41,7 +41,6 @@ $(document).ready(function () {
             students.forEach(function (a, i) {
                 if (a['name'] === searched) {
                     result.push(i);
-                    return true;
                 }
             });
             var table = makeTable(students,result);

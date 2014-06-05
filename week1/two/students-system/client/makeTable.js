@@ -9,11 +9,11 @@ var makeTable = function (info, selected) {
     }
     var keys = Object.keys(info[0]);
 
-    var result = '<div class="row col-xs-4 "><table class="table table-bordered">\n' +
+    var result = '<table class="table table-bordered">\n' +
         '<thead>\n' +
         '<tr>\n';
     keys.forEach(function (key, i) {
-        result += '<th>' +
+        result += '<th class="col-md-3">' +
         (key.charAt(0).toUpperCase() + key.slice(1)) +
         '</th>\n';
     });
@@ -32,14 +32,14 @@ var makeTable = function (info, selected) {
         else {label = ""};
         result += '<tr class='+label+'>\n';
         keys.forEach(function (key) {
-            result += '<td>' + elem[key] + '</td>\n';
+            result += '<td class="col-md-3">' + elem[key] + '</td>\n';
         });
         result += '</tr>\n';
     });
 
     result += '</tbody>\n' +
-    '</div></table>\n';
-    return result;
+    '</table>\n';
+    return '<div class="row col-xs-4 ">' + result + '</div>';
 };
 
 exports.makeTable = makeTable;
