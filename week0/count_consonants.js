@@ -1,8 +1,6 @@
 "use strict";
 
-var allCosonants = "bcdfghjklmnpqrstvwxz".split("");
-
-//haystack.indexOf(needle) >= 0
+var allConsonants = "bcdfghjklmnpqrstvwxz";
 
 var count_consonants = function(str){
 
@@ -10,7 +8,7 @@ var count_consonants = function(str){
     var result = 0;
 
     letters.forEach(function(a){
-        if(allCosonants.indexOf(a) >= 0){
+        if(allConsonants.indexOf(a) >= 0){
             result += 1;
         }
     });

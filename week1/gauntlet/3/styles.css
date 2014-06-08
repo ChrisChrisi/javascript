@@ -7,3 +7,11 @@
     /*match input-lg*/
     height: 47px;
 }
+
+img{
+    margin-bottom: 25px;
+}
+
+.getInput{
+    margin: 25px;
+}
