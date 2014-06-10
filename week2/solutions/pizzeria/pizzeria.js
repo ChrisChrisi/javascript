@@ -56,7 +56,12 @@ function PizzaOrder(pizza){
     this.getId = function(){
         return id;
     }
-    this.timeOfStart;
+
+    this.getPizza = function(){
+        return pizza;
+    };
+
+    this.timeOfStart = false;
 };
 
 PizzaOrder.prototype.start = function(){

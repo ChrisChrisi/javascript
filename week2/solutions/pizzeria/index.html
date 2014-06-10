@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Loader</title>
+    <title>Pizza time</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -9,16 +9,32 @@
     <div class="container">
         <div class="row getInput">
             <div class="col-xs-12">
-                <input id="search-input" class="input-lg" placeholder="Enter image url"/>
-                <button id="search-button" class="btn btn-primary">Load Image</button>
+                <input id="name-input" class="input-lg" placeholder="pizza name"/>
+                <input id="cost-input" class="input-lg" placeholder="cost"/>
+                <input id="time-input" class="input-lg" placeholder="time to make in seconds"/>
+                <button id="order-button" class="btn btn-primary">Make order</button>
             </div>
         </div>
-        <div class="images row"></div>
+        <div class="ordersTable row">
+            <table class="table">
+                <thead>
+                <trow>
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>Cost</td>
+                    <td>Status</td>
+                </trow>
+                </thead>
+                <tbody id="orders">
+
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="pizzeria.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
