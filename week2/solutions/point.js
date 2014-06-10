@@ -20,8 +20,9 @@
  **/
 
 function Point(x, y) {
-    var x = x;
-    var y = y;
+    if(!(this instanceof Point)){
+        return new Point(left, right);
+    }
 
     this.getX = function () {
         return x;
@@ -31,40 +32,45 @@ function Point(x, y) {
         return y;
     };
 
-    function xInc() {
+    this.xInc = function() {
         x += 1;
     };
 
-    function xDec() {
+    this.xDec = function() {
         x -= 1;
     };
 
-    function yInc() {
+    this.yInc = function() {
         y += 1;
     };
 
-    function yDec() {
+    this.yDec = function() {
         y -= 1;
     };
 
 };
 
 Point.prototype.equals = function (otherPoint) {
+    if(!(otherPoint instanceof Point)){
+        throw new TypeError("The argument should be Point object.");
+    }
 
     return (this.getX() === otherPoint.getX() && this.getY() === otherPoint.getY());
 };
 
 //returns the string representation of the point - `Point @ {x}, {y}`
 Point.prototype.toString = function () {
-    return "Point @ {"
+    return "Point @ ("
     + this.getX()
-    + "}, {"
+    + ","
     + this.getY()
-    + "}";
+    + ")";
 };
-var point1 = new Point(1, 2);
-var point2 = new Point(3, 4);
-var point3 = new Point(1, 2);
+//var point1 = new Point(1, 2);
+//var point2 = new Point(3, 4);
+//var point3 = new Point(1, 2);
+//
+//console.log(point1.equals(point3));
+//console.log(point1.toString());
 
-console.log(point1.equals(point3));
-console.log(point1.toString());
+exports.Point = Point;
