@@ -1,5 +1,9 @@
-"use strict";
+/*
+ * Solution by Christina Mileva
+ * GitHub - https://github.com/ChrisChrisi
+ */
 
+"use strict";
 var insterHtmlTag = function (content, tag) {
     return "<" + tag + ">" + content + "</" + tag + ">";
 };
@@ -40,7 +44,7 @@ $(document).ready(function () {
             var name = $(this).val();
             var selectedStudent;
             students.some(function (a, i) {
-                if (a['name'] === name && a['course'] === $("select[name='course-pick'] option:selected" ).text()) {
+                if (a['name'] === name && a['course'] === $("select[name='course-pick'] option:selected").text()) {
                     selectedStudent = a;
                     return true;
                 }
