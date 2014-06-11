@@ -1,6 +1,6 @@
 /*
  * Solution by Christina Mileva
- * GitHub - https://github.com/ChrisChrisi
+ * GitHub - https://github.com/ChrisChrisi/javascript
  */
 
 var insterHtmlTag = function (content, front, back) {
