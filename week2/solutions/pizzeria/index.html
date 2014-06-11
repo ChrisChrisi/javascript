@@ -6,35 +6,39 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row getInput">
-            <div class="col-xs-12">
-                <input id="name-input" class="input-lg" placeholder="pizza name"/>
-                <input id="cost-input" class="input-lg" placeholder="cost"/>
-                <input id="time-input" class="input-lg" placeholder="time to make in seconds"/>
-                <button id="order-button" class="btn btn-primary">Make order</button>
+<div class="container ">
+    <div class="row">
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="selectPizza" style="float:left;padding: 6px 12px 2px 12px;">Select Pizza:</label>
+                <select id="selectPizza" class="form-control selectWidth">
+                </select>
+            </div>
+            <div class="btn-group">
+                <button id="order-button" class="btn btn-success">Order</button>
             </div>
         </div>
-        <div class="ordersTable row">
-            <table class="table">
-                <thead>
-                <trow>
-                    <td>Id</td>
-                    <td>Name</td>
-                    <td>Cost</td>
-                    <td>Status</td>
-                </trow>
-                </thead>
-                <tbody id="orders">
-
-                </tbody>
-            </table>
-        </div>
+        <div id="status"></div>
     </div>
+    <div class="ordersTable row">
+        <table class="table">
+            <thead>
+            <trow>
+                <td>Number</td>
+                <td>Name</td>
+                <td>Cost</td>
+                <td>Status</td>
+            </trow>
+            </thead>
+            <tbody id="orders">
+            </tbody>
+        </table>
+    </div>
+</div>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="pizzeria.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="pizzeria.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>

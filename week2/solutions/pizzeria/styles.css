@@ -1,17 +1,11 @@
-#search-input {
-    width: 500px;
-    margin-top: 100px;
+#selectPizza {
+    width: 800px;
 }
 
-#search-button {
-    /*match input-lg*/
-    height: 47px;
+.container {
+    margin: 30px;
 }
 
-img{
-    margin-bottom: 25px;
-}
-
-.getInput{
-    margin: 25px;
+body {
+    background: url("backgroud.png") repeat left top;
 }
