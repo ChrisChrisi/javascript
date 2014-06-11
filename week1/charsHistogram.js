@@ -8,9 +8,9 @@
 /**
  * Takes a string and outputs a histogram of the characters in the string.
  *
- * Everything must be converted to lowercase, before running the histogram.
- * Don't count white space.
- * You should exclude all punctuation from the string - `!?,.` etc.
+ * not case sensitive
+ * white spaces are not counted
+ * counts only letters (... not exactly, anything but `~!@#$%^&*()_|+\-=?;:'",.<>\s\{\}\[\]\\\/))
  *
  * @param str - string
  * @returns {{}}
