@@ -47,9 +47,7 @@ $(document).ready(function () {
             addToQueue(newPizzaOrder);
 
         });
-
     });
-    // check if
     setInterval(function () {
         if (orders.length !== 0 && currentOrder === false) {
             currentOrder = orders.shift();
