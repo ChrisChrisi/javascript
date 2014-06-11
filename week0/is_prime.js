@@ -1,5 +1,5 @@
 "use strict";
-
+var _ = require("./underscore.js");
 var is_prime = function(n) {
 if(n === 2){
 	return true;
@@ -10,6 +10,7 @@ if (n === 1){
 var arr = Array.apply(null, {length: (Math.abs(n)+1)}).map(Number.call, Number);
  arr = arr.slice(2);
 
+    console.log(_.range(15));
 if(arr.filter(function(a){return (Math.abs(n) % a === 0); }).reduce(function(a,b){ return a + b;}) === Math.abs(n)){
 	return true;
 }

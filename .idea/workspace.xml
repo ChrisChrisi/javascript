@@ -2,199 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0449713f-6653-4981-aa66-918b5362b90b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/backgroud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/qs/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/buffer-crc32/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie-signature/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/node_modules/ms/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/escape-html/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/fresh/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/merge-descriptors/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/parseurl/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/qs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/range-parser/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/finished/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/serve-static/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/vary/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/buffer-crc32/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/utils-merge/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/Cakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/finished/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie-signature/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/fresh/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/range-parser/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/serve-static/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/vary/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/serve-static/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/utils-merge/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/vary/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie-signature/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/escape-html/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/fresh/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/range-parser/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/buffer-crc32/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/node_modules/ms/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/merge-descriptors/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/parseurl/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/finished/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/utils-merge/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/vary/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie-signature/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/escape-html/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/fresh/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/qs/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/range-parser/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/serve-static/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/SOURCES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/charset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/escape-html/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/merge-descriptors/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/buffer-crc32/tests/crc.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/custom.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/encoding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/router/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/buffer-crc32/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie-signature/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/node_modules/ms/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/escape-html/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/fresh/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/merge-descriptors/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/parseurl/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/qs/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/range-parser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/finished/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/serve-static/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/utils-merge/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/vary/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/middleware/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/lib/ipaddr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/ipaddr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/language.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/router/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/test/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/test/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/mime.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/types/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/types/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/negotiator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/node.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/types/node.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/types/node.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/buffer-crc32/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/cookie-signature/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/debug/node_modules/ms/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/escape-html/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/fresh/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/merge-descriptors/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/methods/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/parseurl/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/qs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/range-parser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/finished/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/serve-static/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/utils-merge/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/vary/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/middleware/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/negotiator/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/router/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/lib/send.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/accepts/node_modules/mime/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/path-to-regexp/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/node_modules/mime/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/type-is/node_modules/mime-types/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/node_modules/send/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/server/node_modules/express/lib/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/solutions/pizzeria/app.js" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/solutions/pizzeria/index.html" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/solutions/pizzeria/styles.css" afterPath="$PROJECT_DIR$/week2/solutions/pizzeria/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tryNodeUnit/one.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week0/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/week1/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/always-test.js" afterPath="$PROJECT_DIR$/week1/always-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/always.js" afterPath="$PROJECT_DIR$/week1/always.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/two/students-system/client/app.js" afterPath="$PROJECT_DIR$/week1/two/students-system/client/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/charsHistogram-test.js" afterPath="$PROJECT_DIR$/week1/charsHistogram-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/charsHistogram.js" afterPath="$PROJECT_DIR$/week1/charsHistogram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week0/is_prime.js" afterPath="$PROJECT_DIR$/week0/is_prime.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascript.iws" />
@@ -219,41 +35,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/index.html">
+      <file leaf-file-name="charsHistogram-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/charsHistogram-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6245695" vertical-offset="0" max-vertical-offset="1602">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1379">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/styles.css">
+      <file leaf-file-name="always.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1/always.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/app.js">
+      <file leaf-file-name="charsHistogram.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/charsHistogram.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.107142" vertical-offset="0" max-vertical-offset="2195">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pizzeria.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2427">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44868034" vertical-offset="0" max-vertical-offset="1243">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -283,8 +89,6 @@
         <option value="$PROJECT_DIR$/week1/test.js" />
         <option value="$PROJECT_DIR$/week1/nestedLIst-test.js" />
         <option value="$PROJECT_DIR$/week1/nestedLIst.js" />
-        <option value="$PROJECT_DIR$/week1/always.js" />
-        <option value="$PROJECT_DIR$/week1/always-test.js" />
         <option value="$PROJECT_DIR$/week1/find.js" />
         <option value="$PROJECT_DIR$/week1/find-test.js" />
         <option value="$PROJECT_DIR$/week1/ol-test.js" />
@@ -300,15 +104,12 @@
         <option value="$PROJECT_DIR$/week1/without-test.js" />
         <option value="$PROJECT_DIR$/week1/wordsHistogram.js" />
         <option value="$PROJECT_DIR$/week1/wordsHistogram-test.js" />
-        <option value="$PROJECT_DIR$/week1/charsHistogram.js" />
-        <option value="$PROJECT_DIR$/week1/charsHistogram-test.js" />
         <option value="$PROJECT_DIR$/week1/zip.js" />
         <option value="$PROJECT_DIR$/week1/zip-test.js" />
         <option value="$PROJECT_DIR$/week1/two/makeTable.js" />
         <option value="$PROJECT_DIR$/week1/two/students-system/client/index.html" />
         <option value="$PROJECT_DIR$/week1/two/students-system/server/server.js" />
         <option value="$PROJECT_DIR$/week1/two/students-system/client/makeTable.js" />
-        <option value="$PROJECT_DIR$/week1/two/students-system/client/app.js" />
         <option value="$PROJECT_DIR$/week1/gauntlet/1/index.html" />
         <option value="$PROJECT_DIR$/week1/gauntlet/2/index.html" />
         <option value="$PROJECT_DIR$/week1/gauntlet/2/app.js" />
@@ -321,11 +122,19 @@
         <option value="$PROJECT_DIR$/week1/gauntlet/4/app.js" />
         <option value="$PROJECT_DIR$/week1/gauntlet/4/index.html" />
         <option value="$PROJECT_DIR$/week2/solutions/pizzeria/server/server.js" />
-        <option value="$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js" />
-        <option value="$PROJECT_DIR$/week2/solutions/pizzeria/app.js" />
         <option value="$PROJECT_DIR$/week2/solutions/pizzeria/try.js" />
         <option value="$PROJECT_DIR$/week2/solutions/pizzeria/styles.css" />
+        <option value="$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js" />
         <option value="$PROJECT_DIR$/week2/solutions/pizzeria/index.html" />
+        <option value="$PROJECT_DIR$/week0/is_prime.js" />
+        <option value="$PROJECT_DIR$/week2/solutions/pizzeria/app.js" />
+        <option value="$PROJECT_DIR$/tryNodeUnit.js" />
+        <option value="$PROJECT_DIR$/week1/always-test.js" />
+        <option value="$PROJECT_DIR$/week1/always.js" />
+        <option value="$PROJECT_DIR$/week1/charsHistogram.js" />
+        <option value="$PROJECT_DIR$/tryNodeUnit/one.js" />
+        <option value="$PROJECT_DIR$/week1/two/students-system/client/app.js" />
+        <option value="$PROJECT_DIR$/week1/charsHistogram-test.js" />
       </list>
     </option>
   </component>
@@ -362,7 +171,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -391,7 +199,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week2" />
+              <option name="myItemId" value="week1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,64 +213,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizzeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizzeria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="tryNodeUnit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,6 +230,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\javascript\week1" />
+      <recent name="E:\wamp\www\javascript\week0" />
       <recent name="E:\wamp\www\javascript\week2\solutions\pizzeria" />
       <recent name="E:\wamp\www\javascript\week1\gauntlet\4" />
     </key>
@@ -525,12 +284,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23351352" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23326133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26492536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27292112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34594595" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -563,9 +322,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26226014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -591,11 +350,106 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1343">
+          <caret line="71" column="75" selection-start-line="71" selection-start-column="75" selection-end-line="71" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1292">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1377">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1564">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1377">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1564">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week1/gauntlet/4/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="459">
           <caret line="22" column="93" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
@@ -606,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="731">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="289">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="935">
           <caret line="41" column="31" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="765">
           <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="765">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
@@ -933,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.037904125" vertical-offset="0" max-vertical-offset="1135">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1509">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.851851" vertical-offset="0" max-vertical-offset="1295">
           <caret line="22" column="93" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
@@ -965,14 +809,6 @@
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1/two/students-system/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7770346" vertical-offset="0" max-vertical-offset="1781">
-          <caret line="41" column="31" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="15" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week1/gauntlet/4/app.js">
@@ -987,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09758898" vertical-offset="0" max-vertical-offset="1551">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41694537" vertical-offset="238" max-vertical-offset="1696">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,14 +837,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54960984" vertical-offset="0" max-vertical-offset="1866">
           <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/app.js">
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/backgroud.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.107142" vertical-offset="0" max-vertical-offset="2195">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5080275" vertical-offset="169" max-vertical-offset="1603">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1025,21 +863,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/pizzeria.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="2427">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4766147" vertical-offset="677" max-vertical-offset="2139">
+          <caret line="65" column="53" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/backgroud.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/week0/fibo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week0/list_to_number.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week0/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23496">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23496">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week0/is_prime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024926687" vertical-offset="0" max-vertical-offset="1022">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024926687" vertical-offset="0" max-vertical-offset="1974">
+          <caret line="1" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/always-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12463343" vertical-offset="0" max-vertical-offset="971">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/problems.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8727272" vertical-offset="6336" max-vertical-offset="8906">
+          <caret line="382" column="0" selection-start-line="382" selection-start-column="0" selection-end-line="384" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/solutions/pizzeria/index.html">
+    <entry file="file://$PROJECT_DIR$/week1/range.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6245695" vertical-offset="0" max-vertical-offset="1602">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/two/students-system/client/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7228739" vertical-offset="204" max-vertical-offset="1566">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tryNodeUnit/one.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07478006" vertical-offset="0" max-vertical-offset="716">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/always.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/charsHistogram-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1379">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/charsHistogram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44868034" vertical-offset="0" max-vertical-offset="1243">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>

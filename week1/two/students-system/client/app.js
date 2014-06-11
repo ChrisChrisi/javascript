@@ -39,7 +39,7 @@ $(document).ready(function () {
 
             var result = [];
             students.forEach(function (a, i) {
-                if (a['name'] === searched) {
+                if (a['name'].indexOf(searched) > -1) {
                     result.push(i);
                 }
             });

@@ -1,3 +1,8 @@
+/*
+ * Solution by Christina Mileva
+ * GitHub - https://github.com/ChrisChrisi/javascript
+ */
+
 "use strict";
 
 var always = require("./always").always;
