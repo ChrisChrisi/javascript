@@ -1,4 +1,6 @@
 "use strict";
+
+var addPages =
 $(document).ready(function () {
     $.getJSON('http://localhost:3000/students', function (students, textStatus) {
 

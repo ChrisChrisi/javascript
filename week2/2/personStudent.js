@@ -1,7 +1,7 @@
 "use strict";
 
 function Person(firstName, secondName, age){
-    var initirals = [firstName[0], secondName[0]].join(" ");
+    var initials = [firstName[0], secondName[0]].join(" ");
 
     this.getName = function(){
         return [firstName, secondName].join(" ");
@@ -31,5 +31,5 @@ Student.prototype.toString = function() {
     return Person.prototype.toString.call(this) + " I am student";
 
 };
-var s = new Student("Dobi", "Dobchev", 20);
+var s = new Student("John", "Doe", 20);
 console.log(s.toString());

@@ -6,12 +6,55 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="shelf" class="container">
-        <h1>HackBulgaria's Bookstore</h1>
+<div class="container">
+    <h1>HackBulgaria's Bookstore</h1>
+    <div id="allBooks" class= "shelf">
 
     </div>
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <div id = "cart-content" class="well container shelf">
+        <h2>Cart content</h2>
+        <h3>Total pages:<span id="page-num">0</span></h3>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/lodash/dist/lodash.js"></script>
+
+
+<script type="text/html" id="bookTemplate">
+        <div id=" <%= book.id %> " class="col-xs-4">
+            <h3><%= book.title %></h3>
+            <img src="<%= book.image_url %> " />
+
+            <p>Averege rating: <%= book.average_rating %></p>
+
+            <p>ISBN: <%= book.isbn %></p>
+            <button class="btn btn-info description-button" data-toggle="modal" data-target="#myModal">Read description</button>
+            <button class="btn btn-success cart-button">Add to Cart</button>
+            <div id="description" class = "hidden "><%= book.description %></div>
+        </div>
+
+</script>
+
 <script src="app.js"></script>
 </body>
 </html>

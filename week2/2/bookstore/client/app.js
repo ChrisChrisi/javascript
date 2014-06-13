@@ -1,54 +1,61 @@
 "use strict";
-
-var makeSTag = function (content, tag) {
-    return '<' +tag
-    + '>'
-    + content
-    + '</'
-    + tag
-    + '>';
-};
 var addBook = function (book) {
-    var content = '<div class="col-xs-4">'
-        + makeSTag(book.title, "h3")
-        + '<img src="'
-        + book.image_url
-        + '">'
-        + makeSTag("Averege rating: " + book.average_rating, "p")
-        + makeSTag("ISBN: " + book.isbn, "p")
-        + '<button id ="description-button" class = "btn btn-info" > Read description </button >'
-        + '<div id="description" class = "hidden"> '+ book.description+'</div>'
-        + '<button class="btn btn-success">Add to Cart</button>'
-        + '</div > ';
-    return content;
+    var template = $('#bookTemplate').html();
+    // complie template and bind context
+    return _.template(template)({
+        book: book
+    });
 };
 
-var loadBooks = function(allBooks){
+var loadBooks = function (allBooks) {
     var rowBegin = '<div class="row">';
     var rowEnd = '</div>';
     var allItems = "";
-  allBooks.forEach(function(book, i){
-      if(i%3 === 0){
-          console.log("start: "+ i)
-          allItems += rowBegin + addBook(book);
-      }
-      else if((i+1)%3 === 0) {
-          allItems += addBook(book) + rowEnd;
-      }
-      else{
-          allItems += addBook(book);
-      }
-  });
-  return allItems;
+    allBooks.forEach(function (book, i) {
+        book.id = i;
+        if (i % 3 === 0) {
+            allItems += rowBegin + addBook(book);
+        }
+        else if ((i + 1) % 3 === 0) {
+            allItems += addBook(book) + rowEnd;
+        }
+        else {
+            allItems += addBook(book);
+        }
+    });
+    return allItems;
 };
 
-$(document).ready(function(){
+
+
+$(document).ready(function () {
     $.getJSON('http://localhost:3000/books', function (books, textStatus) {
-        $("#shelf").append(loadBooks(books));
+        $("#allBooks").append(loadBooks(books));
+
+
+    $(".shelf").on("click", '.description-button', function () {
+       $(".modal-body").empty();
+        var description = $(this).parent().children("#description");
+        var added = description.clone().appendTo(".modal-body");
+        added.removeClass("hidden");
+
     });
 
-    $("button").on("click", function(){
-        alert("click");
-      // $(this).parent().children("#description").addClass("show");
-    })
+    $("#allBooks").on("click", ".cart-button", function () {
+        var book = $(this).parent();
+
+        var elem = book.clone().appendTo("#cart-content");
+        elem.children(".cart-button").addClass("btn-warning left").text("remove");
+        elem.children(".description-button").remove();
+        var oldVal =  parseInt($("#page-num").text() );
+        $("#page-num").text(oldVal + books[parseInt(elem.attr('id'))].num_pages);
+    });
+
+
+    $("#cart-content").on("click", ".cart-button", function () {
+        var oldVal =  parseInt($("#page-num").text() );
+        $("#page-num").text(oldVal -  books[parseInt( $(this).parent().attr('id'))].num_pages);
+        $(this).parent().remove();
+    });
+    });
 });

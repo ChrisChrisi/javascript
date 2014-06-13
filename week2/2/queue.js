@@ -1,89 +1,79 @@
 "use strict";
 
-var queue = {
-    head   : 0,
-    tail   : 0,
-    storage: {}
-};
-
-var basePerson = (function () {
+var realQueue = (function () {
     var _private = {
-        personName: ""
+        head   : 0,
+        tail   : 0,
+        storage: {}
     };
-
     return {
-        setName: function (name) {
-            _private.personName = name;
+        push      : function (elem) {
+            _private.storage[_private.tail] = elem;
+            _private.tail += 1;
         },
-        getName: function () {
-            return _private.personName;
+        pop       : function () {
+            if (!this.isEmpty()) {
+                var elem = _private.storage[_private.head]
+                delete _private.storage[_private.head];
+                _private.head += 1;
+                return elem;
+            }
+        },
+        getStorage: function () {
+            return _private.storage;
+        },
+        isEmpty   : function () {
+            return Object.keys(_private.storage).length === 0;
         }
-    };
+    }
 }() );
 
-var makeQueue = function(queueName, comment){
+/**
+ *  An Event Queue
 
-  // You can use object literal notation for `instance` (instead of dot notation),
-  // but then we have to use `this` and we lose the privacy of closure scope
-  // (e.g., `storage` is no longer private), so this kind of sucks.
-  var instance = {
-    name: queueName,
-    annotation: comment,
-    head: 0,
-    tail: 0,
-    storage: {}
-  };
+ Create a single object, that behaves like an event queue! We can attach custom events with callbacks to them and also trigger those events.
 
-  // The _.extend() function is provided by the Underscore.js library
-  _.extend(instance, sharedQueueMethods);
+ The object should have the following public methods:
 
-  return instance;
-};
+ .on(eventName, callback) - adds the given callback for the given eventName
+ .remove(eventName) - removes all callbacks for the given eventName
+ .trigger(eventName) - fires the given eventName which calls all callbacks for that event
 
-// The object below stores methods that could be shared with other classes
-var sharedQueueMethods = {
-  enqueue: function(data){
-    this.storage[this.tail] = data;
-    this.tail++;
-    // The tail points to the next EMPTY "spot" for data to be stored
-    // it does NOT point to the last OCCUPIED "spot" in the storage
-  },
-  dequeue: function(){
-    if(this.head <= this.tail){  // Check the queue's size
-      var data = this.storage[this.head];
+ */
 
-      // Deleting is even more important for queues than for stacks
-      // (memory leaks are a bigger threat for queues)
-      delete this.storage[this.head];
-      this.head++;
-      return data;
-    }
-  },
-  size: function(){
-    return this.tail - this.head;
-  }
-};
+var queue = (function () {
+    var storage = {};
 
-var queue = {
-    head:0,
-    tail:0,
-    storage:{},
-    push: function(elem){
-        this.storage[this.tail] = elem;
-        this.tail+=1;
-    },
-    pop: function(){
-        if(!this.isEmpty()){
-            var elem = this.storage[this.head]
-            delete this.storage[this.head];
-            this.head+=1;
-            return elem;
+    var on = function (eventName, f) {
+        if (!storage[eventName]) {
+            storage[eventName] = [];
         }
-    },
-    isEmpty: function()
-    {return Object.keys(this.storage).length === 0;}
-};
+        storage[eventName].push(f);
+    };
+    var remove = function (eventName) {
+        if (storage[eventName]) {
+            delete storage[eventName];
+        }
+    };
+    var trigger = function (eventName) {
+        var callbacks = storage[eventName] || [];
+        callbacks.forEach(function (callback) {
+            callback();
+        });
+    };
+    return {
+        on     : on,
+        remove : remove,
+        trigger: trigger
+    }
+}());
 
-function eventQueue(){
+queue.on("PANIC_EVENT", function () {
+    console.log("PANIC_EVENT HAPPENED!")
+});
 
-};
+queue.on("PANIC_EVENT", function () {
+    console.log("PANIC_EVENT HAPPENED AGAIN!");
+});
+
+queue.trigger("PANIC_EVENT");

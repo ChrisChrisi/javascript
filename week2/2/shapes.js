@@ -17,7 +17,6 @@
  */
 
 function Shape(type) {
-    if((this instanceof Shape)){}
     this.getType = function () {
         return type;
     }
@@ -70,10 +69,10 @@ Triangle.constructor = Triangle;
 
 Triangle.prototype.area = function () {
     var a = this.getSide1();
-    var b = this.getSide1();
-    var c = this.getSide1();
+    var b = this.getSide2();
+    var c = this.getSide3();
     var s = parseFloat((a + b + c) / 2);
-    return (Math.sqrt(s*(s - a)*(s - b)*(s - c)));
+    return parseFloat(Math.sqrt(s*(s - a)*(s - b)*(s - c)));
 };
 
 //var triangle1 = new Triangle(5,12,13);

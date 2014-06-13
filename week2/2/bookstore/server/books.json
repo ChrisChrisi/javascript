@@ -1,7 +1,7 @@
 [
     {
         "isbn": 60853980,
-        "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+        "title": "Good Omens",
         "image_url": "https://d.gr-assets.com/books/1392528568m/12067.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1392528568s/12067.jpg",
         "num_pages": 413,
@@ -19,7 +19,7 @@
     },
     {
         "isbn": 60012382,
-        "title": "The Wee Free Men &amp;&#35;40;Discworld, #30&#41; (Tiffany Aching, #1)",
+        "title": "The Wee Free Men ",
         "image_url": "https://d.gr-assets.com/books/1284280817m/34494.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1284280817s/34494.jpg",
         "num_pages": 375,
@@ -28,7 +28,7 @@
     },
     {
         "isbn": 61020664,
-        "title": "Wyrd Sisters &amp;&#35;40;Discworld, #6&#41;",
+        "title": "Wyrd Sisters",
         "image_url": "https://d.gr-assets.com/books/1275974472m/34504.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1275974472s/34504.jpg",
         "num_pages": 265,
@@ -37,7 +37,7 @@
     },
     {
         "isbn": 552152951,
-        "title": "Reaper Man &amp;&#35;40;Discworld, #11&#41;",
+        "title": "Reaper Man",
         "image_url": "https://d.gr-assets.com/books/1389211958m/34517.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1389211958s/34517.jpg",
         "num_pages": {},
@@ -46,7 +46,7 @@
     },
     {
         "isbn": 552154288,
-        "title": "Hogfather &amp;&#35;40;Discworld, #20&#41;",
+        "title": "Hogfather",
         "image_url": "https://d.gr-assets.com/books/1327948141m/34532.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1327948141s/34532.jpg",
         "num_pages": 432,
@@ -55,7 +55,7 @@
     },
     {
         "isbn": 552153257,
-        "title": "Feet of Clay &amp;&#35;40;Discworld, #19&#41;",
+        "title": "Feet of Clay",
         "image_url": "https://d.gr-assets.com/books/1320490628m/34527.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1320490628s/34527.jpg",
         "num_pages": 416,
@@ -64,7 +64,7 @@
     },
     {
         "isbn": 552152676,
-        "title": "Thud! &amp;&#35;40;Discworld, #34&#41;",
+        "title": "Thud!",
         "image_url": "https://d.gr-assets.com/books/1320495268m/62530.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1320495268s/62530.jpg",
         "num_pages": 439,
@@ -72,18 +72,7 @@
         "average_rating": 4.23
     },
     {
-        "isbn": "055255264X",
-        "title": "A Hat Full of Sky &amp;&#35;40;Discworld, #32&#41;",
-        "image_url": "https://d.gr-assets.com/books/1319037274m/34501.jpg",
-        "small_image_url": "https://d.gr-assets.com/books/1319037274s/34501.jpg",
-        "num_pages": 352,
-        "description": {},
-        "average_rating": 4.25
-    },
-    {
-        "isbn": {
-            "nil": true
-        },
+        "isbn":  553152676,
         "title": "Monstrous Regiment",
         "image_url": "https://d.gr-assets.com/books/1375908503m/34511.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1375908503s/34511.jpg",
@@ -93,7 +82,7 @@
     },
     {
         "isbn": 552154229,
-        "title": "The Fifth Elephant &amp;&#35;40;Discworld, #24&#41;",
+        "title": "The Fifth Elephant",
         "image_url": "https://d.gr-assets.com/books/1327961702m/63720.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1327961702s/63720.jpg",
         "num_pages": 464,
@@ -111,7 +100,7 @@
     },
     {
         "isbn": 552152943,
-        "title": "Moving Pictures &amp;&#35;40;Discworld, #10&#41;",
+        "title": "Moving Pictures",
         "image_url": "https://d.gr-assets.com/books/1320456553m/34510.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1320456553s/34510.jpg",
         "num_pages": 396,
