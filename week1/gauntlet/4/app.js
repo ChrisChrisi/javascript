@@ -24,7 +24,7 @@ $(document).ready(function () {
             $("select[name='course-pick']").append(insert);
         });
 
-        //when a course is picket the students names from this course are inserted in the student-pick select
+        //when a course is picked the students names from this course are inserted in the student-pick select
         $("select[name='course-pick']").children("option").on("click", function () {
             $("select[name='student-pick']").empty();
             var course = $(this).val();
