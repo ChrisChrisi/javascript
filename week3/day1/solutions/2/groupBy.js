@@ -51,5 +51,3 @@ var groupBy = function (groupingFunction, arr) {
 
     return result;
 };
-
-exports.groupBy = groupBy;

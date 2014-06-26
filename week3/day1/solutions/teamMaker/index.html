@@ -6,8 +6,58 @@
     <title></title>
 </head>
 <body>
-Content
-<div id="content" class="container"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <form role="form">
+                <div class="form-group">
+                    <label for="course-pick" class="control-label">Course:</label>
+                    <select name="course-pick" class="form-control">
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Group:</label>
+                    <select name="group-pick" class="form-control">
+                        <option value="0" selected>All Groups</option>
+                        <option value="1">First Group</option>
+                        <option value="2">Second Group</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="studentsTable row">
+
+    </div>
+</div>
+
+<script type="text/html" id="tableTemplate">
+    <table class="table">
+        <thead>
+        <tr>
+            <% (columns).forEach(function(col){%>
+            <td><%= col%></td>
+            <%});%>
+        </tr>
+        </thead>
+        <tbody>
+        <% (items).forEach(function(item){%>
+        <tr>
+            <td><%= item.name %></td>
+            <td><a href="<%= item.github %>"><%= item.github %></a></td>
+            <td><% (item.courses).forEach(function(course){%>
+                <%= course.name %>;
+                <%}) %></td>
+            <td><input type="checkbox" <% if(item.available) {%> checked <% }%>  disabled></td>
+        </tr>
+        <%}); %>
+        </tbody>
+    </table>
+
+</script>
 
 <script src="bower_components/lodash/dist/lodash.js"></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>

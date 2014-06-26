@@ -1,104 +1,142 @@
-var groceries = [{
-    type: "fruit",
-    name: "banana",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/166px-Banana-Single.jpg"
-}, {
-    type: "fruit",
-    name: "apple",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/160px-Red_Apple.jpg"
-}, {
-    type: "fruit",
-    name: "grape",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/217px-Table_grapes_on_white.jpg"
-}, {
-    type: "fruit",
-    name: "watermelon",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg/96px-Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg"
-}, {
-    type: "vegetable",
-    name: "potato",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/220px-Patates.jpg"
-}, {
-    type: "vegetable",
-    name: "carrot",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-037.jpg/218px-13-08-31-wien-redaktionstreffen-EuT-by-Bi-frie-037.jpg"
-}, {
-    type: "vegetable",
-    name: "turnip",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Turnip_2622027.jpg/218px-Turnip_2622027.jpg"
-}, {
-    type: "vegetable",
-    name: "lettuce",
-    image: "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Iceberg_lettuce_in_SB.jpg/320px-Iceberg_lettuce_in_SB.jpg"
-}];
+var tableGen = function (columns, items) {
+    var template = $("#tableTemplate").html();
 
-var listGen = function(listItems){
-    var template = "<ul><%_(items).forEach(function(item){ %><li> <%= item %></li> <%});%></ul>";
-    return _.template(template, {items: listItems});
+    return _.template(template, {columns: columns, items: items})
+
+};
+var addOptions = function (groups, selectName) {
+    var template = "<% (groups).forEach(function(group){%><option><%= group %></option> <%}); %>"
+    var result = _.template(template, {groups: groups});
+    $("select[name='" + selectName + "']").empty();
+    $("select[name='" + selectName + "']").append(result);
 };
 
-var linkGen = function(link){
-    var template = "<a href='<%= link.href %>'><%= link.name %></a>";
-    return _.template(template, {link: link});
+var compareAv = function (a, b) {
+    if (a.available === "true" && b.available === "false") {
+        return -1;
+    }
+    if (a.available === "false" && b.available === "true") {
+        return 1;
+    }
+    return 0;
 };
 
-var paragraphGen = function(content){
-    var template = "<p><%= content %></p>";
-
-    return _.template(template, {content: content});
+var compareNames = function (a, b) {
+    if (a.name < b.name) {
+        return -1;
+    }
+    if (a.name > b.name) {
+        return 1;
+    }
+    return 0;
 };
 
-
-var tagGen = function(tag){
-    var template = "<<%= tag.tagName %> " +
-        "<%_(tag.attributes).forEach(" +
-            "function(attr){%>" +
-        "<%= attr.key %>='<%= attr.value%>' " +
-            "<%});%>>" +
-        "<%= tag.data %>" +
-        "</<%= tag.tagName %>>";
-    return _.template(template, {tag: tag});
+var compareCourses = function (a, b) {
+    if((typeof a.courses[0] !== "undefined" )&& (typeof b.courses[0] !== "undefined" )){
+    if (a.courses[0].name < b.courses[0].name) {
+        return -1;
+    }
+    if (a.courses[0].name > b.courses[0].name) {
+        return 1;
+    }}
+    else{
+        if((typeof a.courses[0] === "undefined" )&& (typeof b.courses[0] !== "undefined" )){
+            return - 1;
+        }
+        if((typeof b.courses[0] === "undefined" )&& (typeof a.courses[0] !== "undefined" )){
+            return 1;
+        }
+    }
+    return 0;
 };
 
-var htmlGenerator = {
-     link : linkGen,
-     paragraph: paragraphGen,
-     list: listGen,
-     tag: tagGen};
+var multiCompare = function (a, b) {
+        if (a.available === b.available) {
+            if ((typeof a.courses[0] !== "undefined" )&& (typeof b.courses[0] !== "undefined" ) && (a.courses[0].name === b.courses[0].name)) {
+                compareNames(a, b);
+            }
+            compareCourses(a, b);
+        }
+        compareAv(a, b);
+    };
 
-$(document).ready(function(){
-    // sort the items by type
-  var sortedItems=  groupBy(function(item) {
-      return item.type;
-    }, groceries);
+$(document).ready(function () {
+    $.getJSON('https://hackbulgaria.com/api/students/', function (students) {
+        students = students.sort(compareNames);
 
-    var result = "";
-    var types = Object.keys(sortedItems);
-    types.forEach(function(type){
-       var group =  sortedItems[type];
-        var content = htmlGenerator.tag({
-                        tagName:"h2",
-                        data: type
-                    });
-        group.forEach(function(elem){
-           var elemRes =  htmlGenerator.tag({
-                tagName:"h3",
-                data: elem.name
+        var filterTable = function () {
+            var course = $("select[name='course-pick']").find(":selected").val();
+            var group = $("select[name='group-pick']").find(":selected").val();
+            var selectedStudents = [];
+            if (course === "All courses") {
+                if (group === "All groups") {
+                    selectedStudents = students;
+                } else {
+                    group = parseInt(group);
+                    selectedStudents = sortedStudentsByGroup[group];
+                }
+            }
+            else {
+
+                var selected = sortedStudentsByCourse[course];
+                if (group === "All groups") {
+                    selectedStudents = selected;
+                }
+                else {
+                    group = parseInt(group);
+                    var sortByGroup = groupBy(function (student) {
+                        var result = [];
+                        student.courses.forEach(function (course) {
+                            result.push(course.group)
+                        });
+                        return result;
+
+                    }, selected);
+                    selectedStudents = sortByGroup[group];
+                }
+            }
+
+            $(".studentsTable").empty();
+            $(".studentsTable").append(tableGen(columns, selectedStudents));
+        };
+
+        var columns = ["Name", "GitHub", "Course/s", "Available"];
+
+        $(".studentsTable").empty();
+        $(".studentsTable").append(tableGen(columns, students));
+
+        var sortedStudentsByCourse = groupBy(function (student) {
+            var result = [];
+            student.courses.forEach(function (course) {
+                result.push(course.name)
             });
-            elemRes +=  "<img src='"+ elem.image +"'>";
-            elemRes =  htmlGenerator.tag({tagName: "div", data:  elemRes, attributes: [{ key: "class", value: "col-md-3"
-                             }]});
-            content += elemRes;
-        });
-        result +=   htmlGenerator.tag({
-                 tagName: "div",
-                 data:    content,
-                 attributes: [{
-                     key: "class",
-                     value: type + " row"
-                 }]
-             });
-    });
+            return result;
 
-    $("#content").append(result);
+        }, students);
+
+        var courses = ["All courses"];
+        courses = courses.concat(Object.keys(sortedStudentsByCourse));
+        addOptions(courses, "course-pick");
+
+        var sortedStudentsByGroup = groupBy(function (student) {
+            var result = [];
+            student.courses.forEach(function (course) {
+                result.push(course.group)
+            });
+            return result;
+
+        }, students);
+
+        var groups = ["All groups"];
+        groups = groups.concat(Object.keys(sortedStudentsByGroup));
+        addOptions(groups, "group-pick");
+
+        $("select[name='group-pick']").children("option").on("click", function () {
+            filterTable();
+        });
+
+        $("select[name='course-pick']").children("option").on("click", function () {
+            filterTable();
+        });
+    });
 });

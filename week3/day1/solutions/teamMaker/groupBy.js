@@ -43,10 +43,14 @@
 var groupBy = function (groupingFunction, arr) {
     var result = {};
     arr.forEach(function (a) {
-        if(typeof(result[groupingFunction(a)]) === 'undefined'){
-            result[groupingFunction(a)] = [];
-        }
-        result[groupingFunction(a)].push(a);
+        groupingFunction(a).forEach(function (item) {
+            if (typeof(result[item]) === 'undefined') {
+                result[item] = [];
+            }
+        });
+        groupingFunction(a).forEach(function (item) {
+            result[item].push(a);
+        });
     });
 
     return result;
