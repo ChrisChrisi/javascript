@@ -29,7 +29,13 @@ function Pizza(name, cost, timeToMake) {
     };
 
 };
-var lastId = 0;
+var counter = (function(){
+    var count = 0;
+    return function(){
+        return count+=1;
+
+    }
+}());
 function PizzaOrder(pizza) {
     if (!(this instanceof PizzaOrder)) {
         return new PizzaOrder(pizza);
@@ -37,8 +43,7 @@ function PizzaOrder(pizza) {
     if (!(pizza instanceof Pizza)) {
         throw new TypeError("The argument should be Point object!");
     }
-    var id = lastId;
-    lastId += 1;
+    var id = counter();
     var timeOfStart = false;
     this.getTimeOfStart = function () {
         return timeOfStart;

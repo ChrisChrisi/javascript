@@ -51,11 +51,12 @@ $(document).ready(function () {
         $("#page-num").text(oldVal + books[parseInt(elem.attr('id'))].num_pages);
     });
 
+    $("#shelf").on("click", "button[id='description-button']",function(){
+       var description = $(this).parent().children("#description");
+        description.toggleClass( "hidden" );
+    })
 
-    $("#cart-content").on("click", ".cart-button", function () {
-        var oldVal =  parseInt($("#page-num").text() );
-        $("#page-num").text(oldVal -  books[parseInt( $(this).parent().attr('id'))].num_pages);
-        $(this).parent().remove();
-    });
-    });
+    $("#shelf").on("click", "button[id='cart_button']",function(){
+       alert('cart!');
+    })
 });

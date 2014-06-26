@@ -72,7 +72,18 @@
         "average_rating": 4.23
     },
     {
-        "isbn":  553152676,
+        "isbn": "055255264X",
+        "title": "A Hat Full of Sky",
+        "image_url": "https://d.gr-assets.com/books/1319037274m/34501.jpg",
+        "small_image_url": "https://d.gr-assets.com/books/1319037274s/34501.jpg",
+        "num_pages": 352,
+        "description": {},
+        "average_rating": 4.25
+    },
+    {
+        "isbn": {
+            "nil": true
+        },
         "title": "Monstrous Regiment",
         "image_url": "https://d.gr-assets.com/books/1375908503m/34511.jpg",
         "small_image_url": "https://d.gr-assets.com/books/1375908503s/34511.jpg",
