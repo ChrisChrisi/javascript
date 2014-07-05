@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a id="makeList" href="#">List the students</a></li>
+                <li><a id="addUsr" href="#">Add student</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div class="container">
+    <div class="studentsTable row">
+    </div>
+
+    <div class="createEdit">
+        <form>
+            Faculty Number: <input id="fn" type="text" value="">
+           Name: <input id = "name" type = "text" value="">
+           Courses: <input id = "courses" type = "text" value="">
+            <button id="submitInfo" class="btn  btn-success">Save</button>
+
+        </form>
+    </div>
+</div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/lodash/dist/lodash.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/handlebars/handlebars.js"></script>
+
+<script type="text/html" id="tableTemplate">
+    <table class="table">
+        <thead>
+        <tr>
+            <% (columns).forEach(function(col){%>
+            <td><%= col%></td>
+            <%});%>
+        </tr>
+        </thead>
+        <tbody>
+        <% (items).forEach(function(item){%>
+        <tr id="<%=item.facultyNumber %>">
+            <td><%= item.name %></td>
+            <td><%= item.facultyNumber %></td>
+            <td><% (item.courses).forEach(function(course){%>
+                <%= course %>;
+                <%}) %>
+            </td>
+            <td><button class="updateBtn" class="btn btn-warning ">Update</button>
+                <button class="deleteBtn" class="btn  btn-danger ">Delete</button>
+            </td>
+        </tr>
+        <%}); %>
+        </tbody>
+    </table>
+
+</script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
