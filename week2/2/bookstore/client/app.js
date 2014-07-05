@@ -59,4 +59,5 @@ $(document).ready(function () {
     $("#shelf").on("click", "button[id='cart_button']",function(){
        alert('cart!');
     })
+    })
 });
