@@ -29,7 +29,6 @@ app.get("/init", function(req, res) {
     resultedSecret += randomSecret.toString();
   });
 
-  console.log(resultedSecret);
 
   res.json(buttonLabels.map(function(label, index) {
     return {

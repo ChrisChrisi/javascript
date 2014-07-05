@@ -2,14 +2,17 @@ var tableGen = function (columns, items) {
     var template = $("#tableTemplate").html();
 
     return _.template(template, {columns: columns, items: items})
-
 };
+
+var loadCourses = function(items){
+    var template = $("#tableGroups").html();
+    return _.template(template, {items: items})
+}
 
 var listStudents = function () {
     $(".createEdit").hide();
 
     $.getJSON('http://localhost:3030/students', function (students) {
-        console.log(students[0]);
         var columns = ["Name", "Faculty number", "Course/s", "Actions"];
 
         $(".studentsTable").empty();
@@ -22,9 +25,13 @@ var listStudents = function () {
 
 
 $(document).ready(function () {
-    $(".studentsTable").hide();
+    var coursesList = ["Algebra", "Geometry", "DIS", "DAA"];
+    $(".addCourse").hide();
+    listStudents();
     $(".createEdit").hide();
+
     $("#makeList").on("click", function () {
+        $(".createEdit").hide();
         listStudents();
     });
 
@@ -38,11 +45,17 @@ $(document).ready(function () {
             dataType: "json"
         }).done(function (data) {
             listStudents();
-            alert("Delete success!");
         });
     });
 
     $("#addUsr").on("click", function () {
+        $(".studentsTable").hide();
+
+        $('.crs:checkbox:checked').map(function() {
+            this.checked = false;
+        });
+        $("#coursesList").empty()
+        $("#coursesList").append(loadCourses(coursesList));
         $(".createEdit #fn").val("");
         $(".createEdit #name").val("");
         $(".createEdit #courses").val("");
@@ -51,13 +64,15 @@ $(document).ready(function () {
 
     $("#submitInfo").on("click", function () {
         var fn = $("#fn").val();
+        console.log(typeof fn);
         var name = $("#name").val();
-        var courses = $("#courses").val();
-        if (fn.length < 3 || name.length < 3 || courses.length < 3) {
+        if (fn.length < 3 || name.length < 3) {
             alert("Not all fields have correct values!");
         }
         else {
-            courses = courses.split("; ");
+            var courses = $('.crs:checkbox:checked').map(function() {
+                return this.value;
+            }).get();
 
 
             $.ajax({
@@ -81,11 +96,36 @@ $(document).ready(function () {
     });
 
     $(".studentsTable").on("click", ".updateBtn", function () {
-        $(".createEdit #fn").val($(this).parent().siblings("td").first().next().text());
-        $(".createEdit #name").val($(this).parent().siblings("td").first().text());
-        $(".createEdit #courses").val($(this).parent().siblings("td").first().next().next().text());
+
+        var fn = $(this).parent().parent().attr("id");
+        $.getJSON('http://localhost:3030/students', function (students) {
+            var student = students.filter(function( obj ) {
+                return obj.facultyNumber === fn;
+            })[0];
+
+        $(".createEdit #fn").val(student.facultyNumber);
+        $(".createEdit #name").val(student.name);
+        $("#coursesList").empty()
+        $("#coursesList").append(loadCourses(coursesList));
+
+        $('.crs').map(function() {
+            if( student.courses.indexOf($(this).val()) > -1)
+            this.checked = true;
+        });
         $(".createEdit").show();
+        });
     });
 
+    $("#coursesAdd").on("click", function(event){
+        $(".addCourse").show();
+        event.preventDefault();
+    });
+
+    $("#submitCourse").on("click", function(){
+        coursesList.push( $("#courseName").val());
+        $("#courseName").val("");
+        console.log(coursesList);
+        $(".addCourse").hide();
+    });
 
 });

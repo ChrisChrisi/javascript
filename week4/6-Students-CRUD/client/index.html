@@ -9,30 +9,40 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a id="makeList" href="#">List the students</a></li>
                 <li><a id="addUsr" href="#">Add student</a></li>
+                <li><a id="coursesAdd" href="">Add course</a></li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 <div class="container">
+    <div class="addCourse">
+        <form>
+
+            Course Name: <input id="courseName" type="text" value="">
+            <button id="submitCourse" class="btn  btn-success">Add</button>
+
+        </form>
+    </div>
+
     <div class="studentsTable row">
     </div>
 
     <div class="createEdit">
         <form>
             Faculty Number: <input id="fn" type="text" value="">
-           Name: <input id = "name" type = "text" value="">
-           Courses: <input id = "courses" type = "text" value="">
+            Name: <input id="name" type="text" value="">
+
+            <div id="coursesList"></div>
             <button id="submitInfo" class="btn  btn-success">Save</button>
 
         </form>
     </div>
+
+
 </div>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/lodash/dist/lodash.js"></script>
@@ -57,8 +67,58 @@
                 <%= course %>;
                 <%}) %>
             </td>
-            <td><button class="updateBtn" class="btn btn-warning ">Update</button>
+            <td>
+                <button class="updateBtn" class="btn btn-warning ">Update</button>
                 <button class="deleteBtn" class="btn  btn-danger ">Delete</button>
+            </td>
+        </tr>
+        <%}); %>
+        </tbody>
+    </table>
+
+</script>
+
+<script type="text/html" id="tableGroups">
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Check</td>
+            <td>Course Name</td>
+        </tr>
+        </thead>
+        <tbody>
+        <% (items).forEach(function(item){%>
+        <tr id="<%=item.facultyNumber %>">
+            <td>
+                <div class="checkbox">
+                    <label>
+                        <input class="crs" value="<%= item %>" type="checkbox">
+                    </label>
+                </div>
+            </td>
+            <td><%=item%></td>
+        </tr>
+        <%}); %>
+        </tbody>
+    </table>
+</script>
+
+
+<script type="text/html" id="tableTemplate">
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Course Name</td>
+            <td>Actions</td>
+        </tr>
+        </thead>
+        <tbody>
+        <% (items).forEach(function(item){%>
+        <tr id="<%=item.id %>">
+            <td><%= item.name %></td>
+            <td>
+                <button class="updateCourse" class="btn btn-warning ">Update</button>
+                <button class="deleteCourse" class="btn  btn-danger ">Delete</button>
             </td>
         </tr>
         <%}); %>
